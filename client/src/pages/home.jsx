@@ -29,8 +29,10 @@ const Home = () => {
     el.style.top = `${y}px`;
   };
   return (
-    <div className="w-[50%] h-[50%] m-auto mt-20 p-10 border border-gray-300 rounded-lg flex flex-col items-center">
-      <h1 className="mb-6 text-lg font-semibold">Hoài cậu có nhớ tớ không</h1>
+    <div className="w-[90%] lg:w-[50%] lg:h-[50%] m-auto mt-20 p-10 border border-gray-300 rounded-lg flex flex-col items-center">
+      <h1 className="mb-6 text-lg font-semibold">
+        Hoài ơi! cậu có nhớ tớ không
+      </h1>
 
       <div className="w-full h-[300px] flex">
         {/* YES */}
