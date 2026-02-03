@@ -48,6 +48,7 @@ const Home = () => {
           <div
             ref={ref}
             onMouseEnter={nof}
+            onClick={nof}
             className="absolute"
             style={{
               left: "50%",
